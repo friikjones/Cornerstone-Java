@@ -1,0 +1,15 @@
+public class NumberOutput {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int[][] numberArray = {{1,2,3,4,5},{6,7,8,9,10},{11,12,13,14,15}};
+		
+		for (int[] is : numberArray) {
+			for (int[] is2 : numberArray) {
+				System.out.println(numberArray[is][is2]);
+			}
+		}
+	}
+
+}

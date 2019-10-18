@@ -1,0 +1,42 @@
+import java.util.Scanner;
+
+import javax.imageio.stream.ImageInputStream;
+
+public class sieveOfEratosthenes {
+	
+	
+	public static void main(String[] args) {
+
+		int limit;	
+		
+		Scanner input = new Scanner(System.in);
+		limit = input.nextInt();
+		
+		boolean[] primeArray = new boolean [limit];
+		primeNuumberFinder(limit, primeArray);
+		arrayPrinter(primeArray);
+	}
+	
+	public static void primeNuumberFinder(int limit, boolean[] array) {
+		int i = 2;
+		while(i*i < limit) {
+			for (int j = 0; j < array.length; j=+i) {
+				array[j] = false;
+			}
+			i++;
+		}
+	}
+	
+	public static void arrayInitialStateSet(boolean[] array) {
+		for (int i = 0; i < array.length; i++) {
+			array[i] = true;
+		}
+	}
+	
+	public static void arrayPrinter(boolean[] array) {
+		for (int i = 0; i < array.length; i++) {
+			if(array[i])
+				System.out.println(i+" ");
+		}
+	}
+}

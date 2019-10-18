@@ -1,0 +1,5 @@
+public class Animal{
+	private String name = "Animal";
+	private String sleep = "They sleep on the ground.";
+	private String eat = "They eat smaller animals.";
+}

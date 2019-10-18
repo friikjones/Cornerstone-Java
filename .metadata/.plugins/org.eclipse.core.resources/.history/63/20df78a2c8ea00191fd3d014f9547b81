@@ -1,0 +1,9 @@
+
+public class StudentData {
+
+	private String name;
+	private int age;
+	private String ID;
+	private String gender;
+}
+

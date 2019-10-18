@@ -1,0 +1,12 @@
+public class Cat extends Animal{
+	
+	public String name = "Animal";
+	
+	public void sleep() {
+		System.out.println("They sleep on the couch.");
+	}
+	
+	public void eat() {
+		System.out.println("They eat fish.");
+	}
+}

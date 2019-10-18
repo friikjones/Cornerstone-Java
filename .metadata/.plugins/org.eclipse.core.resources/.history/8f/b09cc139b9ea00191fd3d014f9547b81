@@ -1,0 +1,34 @@
+public class AnimalTest {
+
+	public class Animal{
+		private String name = "Animal";
+		private String sleep = "They sleep on the ground.";
+		private String eat = "They eat smaller animals.";
+	}
+	
+	public class Fish extends Animal{
+		private String name = "Fish";
+		private String sleep = "They sleep in water.";
+		private String eat = "They eat plankton.";
+	}
+	
+	public class Dog extends Animal{
+		private String name = "Dog";
+		private String sleep = "They sleep with their owner.";
+		private String eat = "They eat dog food.";
+	}
+	
+	public class Cat extends Animal{
+		private String name = "Cat";
+		private String sleep = "They sleep on a couch.";
+		private String eat = "They eat fish.";
+	}
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+	}
+
+}

@@ -1,0 +1,5 @@
+public class Dog extends Animal{
+	private String name = "Dog";
+	private String sleep = "They sleep with their owner.";
+	private String eat = "They eat dog food.";
+}
