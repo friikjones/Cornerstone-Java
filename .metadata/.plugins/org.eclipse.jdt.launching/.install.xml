@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <dirs>
-<entry loc="/usr/lib/jvm/java-8-openjdk" stamp="1568200874000"/>
+    <entry loc="/usr/lib/jvm/java-10-openjdk" stamp="1572279624957"/>
+    <entry loc="/usr/lib/jvm/java-11-openjdk" stamp="1572387688345"/>
+    <entry loc="/usr/lib/jvm/java-11-openjdk/bin" stamp="1572387684955"/>
+    <entry loc="/usr/lib/jvm/java-8-openjdk" stamp="1568200874000"/>
+    <entry loc="/home/daniel" stamp="1572366165043"/>
 </dirs>
